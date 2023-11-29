@@ -45,6 +45,9 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Shows connected peers in a table view, so you can watch as they come and go.
+ * 
+ * Execution:
+ *     gradle -PmainClass=org.bitcoinj.examples.PeerMonitor run
  */
 public class PeerMonitor {
     private PeerGroup peerGroup;
